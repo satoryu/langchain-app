@@ -1,0 +1,5 @@
+= bootstrap_form_tag url: '/nicknames' do |f|
+  = f.text_field :name, label: :name
+  = f.submit 'Ask'
+
+= turbo_frame_tag "nickname"
